@@ -1,0 +1,53 @@
+/*
+ul{
+    margin: 0 auto;
+    max-width: 1200px;
+    white-space: nowrap;
+}
+
+
+li {
+   display: inline; 
+   padding: 20px;
+} */
+
+* {
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header ul li {
+    display: inline-block;
+}
+div.Box1  {
+    background-color: blue;
+    padding: 100px;
+    position: sticky;
+    top: 0%;
+}
+
+
+div.Box2 {
+    background-color: red;
+    padding: 100px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+div.Box3 {
+    background-color: greenyellow;
+    padding: 100px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+div.Box4 {
+    background-color: rgb(255, 166, 0);
+    padding: 100px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
